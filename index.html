@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Hangman Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScript Game">
+    <meta name="keywords" content="Javascript, Game, Practice">
+    <meta name="author" content="Frederico H.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <h1>Guess The Country or Animal!</h1>
+        <div>
+            <p><b>RULES</b></p>
+            <ul>
+                <li>The more streak you have the less lives you have 🔥</li>
+                <li>Reveal Button Available per Round 🆘</li>
+                <li>Reveal Button = -1 Lives 😰</li>
+                <li>Win = +1 Streak 😄</li>
+                <li>Lose = Streak Reset 😭</li>
+            </ul>
+        </div>
+        <div id="gameContainer">
+            <div id="word"></div>
+            <div id="hint"></div>
+            <div id="lives"></div>
+            <div id="streak"></div>
+            <div id="keyboard"></div>
+            <div id="result"></div>
+            <div id="host"></div>
+        </div>
+
+    </div>
+    <footer> &copy; FredH2O / 2024</footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
